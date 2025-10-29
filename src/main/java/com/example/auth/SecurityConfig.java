@@ -25,7 +25,7 @@ public class SecurityConfig {
 
     @Bean
     public PasswordEncoder passwordEncoder() {
-        // BCrypt is the standard safe encoder for user passwords
+        
         return new BCryptPasswordEncoder();
     }
 }
