@@ -1,0 +1,18 @@
+------------------------------------
+User should be able to authenticate using email - phone number to avoid duplicate accounts
+
+User should be able to access a dashboard with all trial services suggested by the application..
+
+Services should be sorted according to their type 
+
+Dashboard should have a filter according to the type && price
+
+User should be able to add his location and get the closest services to his current location
+
+User should be able to click on a certain service and get information about this service - price - requirements to benefit from trial
+
+THe user should be able to book a trial with the service
+
+The user should only be able to book the trial by paying the fee required by using google pay -- paypal and bank card
+
+--------------------------------------
