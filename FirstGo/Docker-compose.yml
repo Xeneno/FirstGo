@@ -1,0 +1,15 @@
+services:
+  db:
+    image: postgres             # Official PostgreSQL image from Docker Hub
+    restart: always             # Restarts automatically if container stops
+    volumes:
+      - db_data:/var/lib/postgresql/18/main   # Persistent storage for your DB
+    ports:
+      - 5432:5432               # Exposes PostgreSQL port
+    environment:
+      POSTGRES_DB: FirstGo      # Creates a database named 'FirstGo'
+      POSTGRES_PASSWORD: pizzafruit1  # Sets the database password
+
+volumes:
+  db_data:
+    driver: local               # Local Docker volume (default)
