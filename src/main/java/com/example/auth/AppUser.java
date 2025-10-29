@@ -1,10 +1,10 @@
-package com.example.demo.model;
+package com.example.demo.auth;
 
 import jakarta.persistence.*;
 
 @Entity
 @Table(name = "users") 
-public class User {
+public class AppUser {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
