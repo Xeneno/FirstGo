@@ -1,4 +1,4 @@
-package com.example.demo.auth;
+package com.example.auth;
 
 public class RegisterRequest {
     public String email;

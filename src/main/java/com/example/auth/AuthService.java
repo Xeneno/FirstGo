@@ -1,4 +1,4 @@
-package com.example.demo.auth;
+package com.example.auth;
 
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;

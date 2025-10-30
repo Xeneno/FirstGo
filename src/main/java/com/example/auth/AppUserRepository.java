@@ -1,4 +1,4 @@
-package com.example.demo.auth;
+package com.example.auth;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
