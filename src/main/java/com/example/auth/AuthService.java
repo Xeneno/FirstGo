@@ -1,4 +1,4 @@
-package com.example.demo.auth;
+package com.example.auth;
 
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
@@ -18,10 +18,11 @@ public class AuthService {
     }
 
     public void register(RegisterRequest request) {
-        AppUser u = new AppUser(); 
+        AppUser u = new AppUser(); // its ur table - new row
         u.setEmail(request.email);
+        u.setNumber(request.number);
         u.setPasswordHash(passwordEncoder.encode(request.password));
-    
+        
         repo.save(u);
     }
 

@@ -1,4 +1,4 @@
-package com.example.demo.auth;
+package com.example.auth;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -29,4 +29,7 @@ public class AuthController {
         service.login(request);
         return ResponseEntity.ok("logged in");
     }
+
+
+
 }
